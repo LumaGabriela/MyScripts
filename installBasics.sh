@@ -23,7 +23,17 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-    sudo pacman -S flatpak
+#instala sdk para terminal fish
+fisher install reitzig/sdkman-for-fish@v2.1.0
+
+#instala nvm para terminal fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+
+fisher install jorgebucaran/nvm.fish
+
+#instala pacotes flatpak
+
+sudo pacman -S flatpak
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrep
 
