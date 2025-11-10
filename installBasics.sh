@@ -10,7 +10,7 @@ sudo systemctl start postgresql.service
 # Habilita para iniciar no boot
 sudo systemctl enable postgresql.service
 
-sudo pacman -S php php-pgsql zip
+sudo pacman -S php php-pgsql zip texlive texlive-langportuguese texstudio ttf-lato
 
 sudo nano /etc/php/php.ini
 
