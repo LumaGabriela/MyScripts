@@ -45,4 +45,7 @@ flatpak install flathub io.github.shiftey.Desktop
 
 flatpak install flathub org.pgadmin.pgadmin4
 
-
+sudo pacman -S docker docker-compose
+sudo systemctl start docker
+sudo usermod -aG docker $USER
+# (Faça logout e login para o grupo funcionar)
