@@ -10,7 +10,7 @@ sudo systemctl start postgresql.service
 # Habilita para iniciar no boot
 sudo systemctl enable postgresql.service
 # Instala extensoes para php e latex/fontes
-sudo pacman -S php php-pgsql zip texlive texlive-langportuguese texstudio ttf-lato perl-yaml-tiny perl-file-homedir perl-unicode-string
+sudo pacman -S github-cli php php-pgsql zip texlive texlive-langportuguese texstudio ttf-lato perl-yaml-tiny perl-file-homedir perl-unicode-string
 
 sudo nano /etc/php/php.ini
 
