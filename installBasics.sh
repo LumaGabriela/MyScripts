@@ -23,6 +23,10 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+# Example using 'yay'
+yay -S visual-studio-code-bin
+
+
 #instala sdk para terminal fish
 fisher install reitzig/sdkman-for-fish@v2.1.0
 
